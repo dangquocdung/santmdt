@@ -1904,7 +1904,7 @@ class GetFunction
     $url       =   '';
     $settings  = $_this->option->getSettingsData(); 
     
-    $image_url   = url('/').'/images/';
+    $image_url   = url('/').'/public/images/';
     
     if(isset($settings['general_settings']['general_options']['site_logo']) && $settings['general_settings']['general_options']['site_logo']){
       $url = get_image_url($settings['general_settings']['general_options']['site_logo']);
@@ -2610,19 +2610,19 @@ class GetFunction
   }
   
   public static function placeholder_img_src(){
-    return asset('images/no-image.png');
+    return asset('public/images/no-image.png');
   }
   
   public static function avatar_img_src(){
-    return asset('images/avatar.jpg');
+    return asset('public/images/avatar.jpg');
   }
 
   public static function upload_sample_img_src(){
-    return asset('images/upload.png');
+    return asset('public/images/upload.png');
   }
   
   public static function vendor_cover_img_src(){
-    return asset('images/vendor-cover-placeholder.jpg');
+    return asset('public/images/vendor-cover-placeholder.jpg');
   }
   
   public static function role_based_pricing_by_product_id($product_id){

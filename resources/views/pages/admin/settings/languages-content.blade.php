@@ -90,7 +90,7 @@
                <tr>
                  <td>
                    @if($row['lang_code'] == 'en')
-                    <img src="{{ asset('images/'. $row['lang_sample_img']) }}"> &nbsp;&nbsp;{{ $row['lang_name'] }}
+                    <img src="{{ asset('public/images/'. $row['lang_sample_img']) }}"> &nbsp;&nbsp;{{ $row['lang_name'] }}
                    @else
                     <img src="{{ get_image_url($row['lang_sample_img']) }}"> &nbsp;&nbsp;{{ $row['lang_name'] }}
                    @endif

@@ -201,7 +201,7 @@
                 <br>
                 @if( count(get_recent_uploaded_images_for_designer())>0 )
                   @foreach(get_recent_uploaded_images_for_designer() as $data)
-                    <div class="recent-images-items"><img src="{{ url('/') }}/uploads/{{ $data }}"></div>
+                    <div class="recent-images-items"><img src="{{ url('/') }}/public/uploads/{{ $data }}"></div>
                   @endforeach
                   <div class="clear_both"></div>
                 @else
