@@ -32,7 +32,7 @@
 														</div>
 														<div class="modal-body">   
                                 <input type="file" name="csvFileImport" id="csvFileImport" /><br>
-                              <div class="sample-csv-download"><a href="{{ url('/'). '/extra-files/products_import.csv' }}" download="">[ {!! trans('admin.sample_csv_file_label') !!} ]</a></div>
+                              <div class="sample-csv-download"><a href="{{ url('/'). '/public/extra-files/products_import.csv' }}" download="">[ {!! trans('admin.sample_csv_file_label') !!} ]</a></div>
 														</div>
                             <div class="modal-footer" style="position:relative;">
 																<input type="submit" name="upload_product_file" id="upload_product_file" value="{{ trans('admin.upload_lang_zip_file') }}" class="btn btn-default attachtopost upload-btn-action" /> 

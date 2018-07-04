@@ -282,7 +282,7 @@
           <div class="advertisement">
             <h2>{{ trans('frontend.advertisement_label') }} <span class="responsive-accordian"></span></h2>
             <div class="advertisement-content text-center">
-              <img class="img-responsive" src="{{ asset('images/add-sample/shipping.jpg') }}" alt="">
+              <img class="img-responsive" src="{{ asset('public/images/add-sample/shipping.jpg') }}" alt="">
             </div>
           </div>
         </div>
@@ -295,17 +295,17 @@
               <div class="carousel-inner">
                 <div class="item active">
                   <div class="text-center">
-                    <a href=""><img src="{{ asset('images/add-sample/girl.jpg') }}" alt="" class="img-responsive" /></a>
+                    <a href=""><img src="{{ asset('public/images/add-sample/girl.jpg') }}" alt="" class="img-responsive" /></a>
                   </div>
                 </div>
                 <div class="item">
                   <div class="text-center">
-                    <a href=""><img src="{{ asset('images/add-sample/sunglass.png') }}" alt="" class="img-responsive" /></a>
+                    <a href=""><img src="{{ asset('public/images/add-sample/sunglass.png') }}" alt="" class="img-responsive" /></a>
                   </div>
                 </div> 
                 <div class="item">
                   <div class="text-center">
-                    <a href=""><img src="{{ asset('images/add-sample/mobile.png') }}" alt="" class="img-responsive" /></a>
+                    <a href=""><img src="{{ asset('public/images/add-sample/mobile.png') }}" alt="" class="img-responsive" /></a>
                   </div>
                 </div>
               </div>
