@@ -242,7 +242,7 @@
         <h4>{{ trans('admin.ordered_download_history') }}</h4><hr>
         @foreach($order_data_by_id['_order_history'] as $data)
         <div class="download-history">
-            <div class="downloaded-file-name">{{ trans('admin.downloaded_file_name_label') }} : <a download="" href="{{ url('/public/uploads'). $data->file_url }}">{{ $data->file_name }}</a></div>
+            <div class="downloaded-file-name">{{ trans('admin.downloaded_file_name_label') }} : <a download="" href="{{ url('/uploads'). $data->file_url }}">{{ $data->file_name }}</a></div>
           <div class="total-download">{{ trans('admin.total_download_label') }} : {{ $data->total }}</div>
         </div>
         @endforeach

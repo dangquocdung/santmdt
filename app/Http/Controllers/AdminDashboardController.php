@@ -156,7 +156,7 @@ class AdminDashboardController extends Controller
           $product_data['img_url'] = $parse_url->product_image;
 			  }
 			  else{
-          $product_data['img_url'] = URL::to('/public/images/no-image.png');
+          $product_data['img_url'] = URL::to('/images/no-image.png');
 			  }
 			  
 			  $product_data['title'] = $rows['post_title'];

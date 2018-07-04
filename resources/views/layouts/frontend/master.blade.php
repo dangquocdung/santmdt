@@ -56,7 +56,7 @@
     @include('modal.subscribe-content')
     
     <div class="add-to-cart-loader">
-      <img src="{{ asset('public/images/ajax-loader.gif') }}" id="img-load" />
+      <img src="{{ asset('images/ajax-loader.gif') }}" id="img-load" />
       <div class="cart-updating-msg">{{ trans('frontend.cart_updating_msg') }}</div>
     </div>
   </div>

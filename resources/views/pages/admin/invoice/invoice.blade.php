@@ -2,9 +2,9 @@
 <html>
 <head>
   <title>{!! trans('admin.order_invoice_label') !!}</title>  
-  <link rel="stylesheet" href="{{ URL::asset('public/bootstrap/css/bootstrap.min.css') }}" />
-  <script type="text/javascript" src="{{ URL::asset('public/bootstrap/js/bootstrap.min.js') }}"></script>
-  <script type="text/javascript" src="{{ URL::asset('public/jquery/jquery-1.10.2.js') }}"></script>
+  <link rel="stylesheet" href="{{ URL::asset('bootstrap/css/bootstrap.min.css') }}" />
+  <script type="text/javascript" src="{{ URL::asset('bootstrap/js/bootstrap.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('jquery/jquery-1.10.2.js') }}"></script>
   
   <style>
     .invoice-title h2, .invoice-title h3 {
