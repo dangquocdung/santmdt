@@ -205,7 +205,7 @@
                     <div class="sample-img" style="display:none;"><img class="upload-icon img-responsive" src="{{ default_upload_sample_img_src() }}"></div>
                     <div class="uploaded-slider-images" style="display:block;">
                       @foreach(get_appearance_header_settings_data() as $slider_img)
-                        <div class="header-slider-image-single-container {{ substr(basename($slider_img->img_url), 0, -4) }}"><img class="img-responsive" src="{{ $slider_img->img_url }}"><div data-id="{{ $slider_img->id }}" class="remove-frontend-img-link" style="display: none;"></div></div>
+                        <div class="header-slider-image-single-container {{ substr(basename($slider_img->img_url), 0, -4) }}"><img class="img-responsive" src="{{ get_image_url($slider_img->img_url) }}"><div data-id="{{ $slider_img->id }}" class="remove-frontend-img-link" style="display: none;"></div></div>
                       @endforeach
                     </div>
                     @else
