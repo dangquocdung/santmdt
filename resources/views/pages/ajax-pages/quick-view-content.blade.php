@@ -205,8 +205,8 @@
           <a href="{{ route('customize-page', $single_product_details['post_slug']) }}" class="btn btn-xs product-customize-bg"><i class="fa fa-gears"></i> {{ trans('frontend.customize') }}</a>
         @endif
 
-        @if(get_product_type($single_product_details['id']) == 'simple_product' && ($single_product_details['_product_manage_stock_availability'] == 'in_stock' || ($single_product_details['_product_manage_stock'] == 'yes' && $single_product_details['_product_manage_stock_back_to_order'] == 'only_allow' && $single_product_details['_product_manage_stock_availability'] == 'in_stock') || ($single_product_details['_product_manage_stock'] == 'yes' && $single_product_details['_product_manage_stock_back_to_order'] == 'allow_notify_customer' && $single_product_details['_product_manage_stock_availability'] == 'in_stock')))
-<!--        <div class="product-add-to-cart-content add-to-cart-content">  
+        {{--  @if(get_product_type($single_product_details['id']) == 'simple_product' && ($single_product_details['_product_manage_stock_availability'] == 'in_stock' || ($single_product_details['_product_manage_stock'] == 'yes' && $single_product_details['_product_manage_stock_back_to_order'] == 'only_allow' && $single_product_details['_product_manage_stock_availability'] == 'in_stock') || ($single_product_details['_product_manage_stock'] == 'yes' && $single_product_details['_product_manage_stock_back_to_order'] == 'allow_notify_customer' && $single_product_details['_product_manage_stock_availability'] == 'in_stock')))
+        <div class="product-add-to-cart-content add-to-cart-content">  
           <div class="product-add-to-cart-button-content">
             <ul>
               <li>
@@ -232,8 +232,8 @@
               </li>
             </ul>
           </div>  
-        </div>-->
-        @endif
+        </div>
+        @endif  --}}
 
         <div class="model__quick_view_product_meta">
           @if($single_product_details['_product_sku'])  
